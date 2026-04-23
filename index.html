@@ -14,13 +14,21 @@
 
 
 
-   
+   <a-scene>
+  <a-assets>
+    <audio id="river" src="Theme_Park_Sound.mp3" preload="auto"></audio>
+  </a-assets>
+
+  <a-entity sound="src: #river"></a-entity>
+</a-scene>
 
 
 
     
   </head>
     <body>
+
+
     <a-scene>
       <a-sky color="lightblue"></a-sky>
       
@@ -106,13 +114,9 @@
 <a-sky src="#skyTexture"></a-sky>
 
 
-<a-scene>
-  <a-assets>
-    <audio id="river" src="Theme_Park_Sound.mp3" preload="auto"></audio>
-  </a-assets>
 
-  <a-entity sound="src: #river"></a-entity>
-</a-scene>
+
+
 
 </a-scene>
   </body>
