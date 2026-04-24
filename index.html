@@ -16,8 +16,7 @@
 
   <a-entity cursor position="5.89976 4 -100.08564"></a-entity>
 
-<a-entity id="elmo" geometry="primitive: box" material="src:TPS.mp3 "
-          sound="src: url(TPS.mp3); on: click"></a-entity>
+
 
 
 
@@ -174,13 +173,15 @@ property:position;
 from: -34.2 12.1 -83.1;
 to: -34.2 0 -83.1;
 dur:1250;
-loop:true;
+loop:true;.
 
 "
 position="-34.22286 12.10751 -83.18232" rotation="-90 0 -45" scale="2 2 2"></a-entity>
 
-<a-entity id="river" geometry="primitive: plane" material="color: blue"
-          position="-10 0 0" sound="src: url(TPS.mp3); autoplay: true"></a-entity>
+
+ <a-entity id="TPS" geometry="primitive: plane" material="color: blue"
+          position="-10 0 0" sound="src:TPS.mp3; autoplay: true;"></a-entity>
+
 
 
 <a-assets>
@@ -189,9 +190,13 @@ position="-34.22286 12.10751 -83.18232" rotation="-90 0 -45" scale="2 2 2"></a-e
 <a-sky src="#skyTexture"></a-sky>
 
 
+<a-entity ply-model="src: Clown.ply" position="2.74469 -3 -49.45599" rotation="-90.00021045914971 -30.093462273656225 0" scale="2 2 2"></a-entity>
 
+<a-entity ply-model="src: Clown.ply" position="74.15232 -3 -11.55337" rotation="-90 0 -90" scale="2 2 2"></a-entity>
 
+<a-entity ply-model="src: Clown.ply" position="21.46056 -3 53.73418" rotation="-90 0 -45" scale="2 2 2"></a-entity>
 
+<a-entity ply-model="src: Monster.ply" position="21.46056 -3 53.73418" rotation="-90 0 -45" scale="2 2 2"></a-entity>
 
 </a-scene>
   </body>
